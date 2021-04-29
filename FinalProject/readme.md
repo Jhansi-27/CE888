@@ -59,7 +59,7 @@ test_dir = '../input/firedata/Test/Test' # change to your test directory path
 python Xception_finetunedd.py
 ```
 #### Evaluating model on test data:
-* To evaluate model, use this file [Evaluate_Model.py](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Evaluate_Model.py) and run the following command. 
+* To evaluate model, use this file [Evaluate_Model.py](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Evaluate_BestModel.py) and run the following command. 
 ```
 python Evaluate_BestModel(XceptionFinetuned)
 ```
