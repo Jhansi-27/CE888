@@ -52,22 +52,24 @@ The code for finetuned Xception model can be found here [Xception_finetuned.ipyn
 The model can be run this file, [Xception_finetunedd.py](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Xception_finetunedd.py).
 * In this file, just change the following directory paths to directory path in which your train and test data are located.
 * change paths for training data and test data
-        ```
-        train_dir = '../input/firedata/Training/Training' # change to your training directory path 
-        ```
-        ```
-        test_dir = '../input/firedata/Test/Test' # change to your test directory path
-        ```
+```
+train_dir = '../input/firedata/Training/Training' # change to your training directory path 
+```
+```
+test_dir = '../input/firedata/Test/Test' # change to your test directory path
+```
 * Then run Xception_finetunedd.py
 ```
 python Xception_finetunedd.py
 ```
 * Evaluating model on test data:
-* To evaluate model, use this file []()
+* To evaluate model, use this file [Evaluate_Model.py](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Evaluate_Model.py)
 * Run the following command. 
 ```
 python Evaluate_BestModel(XceptionFinetuned)
 ```
+* Before running the code, provide the path to XceptionFinetuned model. This is the link to best model[best model](https://www.kaggle.com/ravieamani/bestmodel).
+* Download this model and in Main function provide the name of the downloaded file 'Xception_finetuned.h5'.
 * Upon running the code, the code asks user for test directory path and batch size.
 * After providing these, the model gets evaluated on test data and performance metric such as accuracy, confusion matrix and classification report is printed.
 
