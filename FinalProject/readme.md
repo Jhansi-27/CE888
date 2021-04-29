@@ -21,16 +21,12 @@
 ```
 
 ### Model
-* Two mdoels are created for this task. One is a simple CNN and other is a Finetuned Xception model.
+* Two models are created for this task. One is a simple CNN and other is a Finetuned Xception model.
 #### Architecture of simple CNN model:
-* The CNN model has 3 convolutional layers followed by a max-pooling layers.
-* A dropout layer is added after 3rd maxpool operation to avoid overfitting.
-
 ![BaseModel:Simple CNN](https://github.com/Jhansi-27/Forest_Fires_CNN/blob/main/Baseline_new.png?raw=true). 
 
 #### Architecture of Finetuned Xception Model:
 * The architecture of the model is given below:
-
 ![FineTunedModel:Xception](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/FIneTuned_Xception_Results/model%20(1).png). 
 
 ## Requirements
