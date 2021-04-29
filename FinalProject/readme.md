@@ -68,7 +68,7 @@ python Xception_finetunedd.py
 ```
 python Evaluate_BestModel(XceptionFinetuned)
 ```
-* Before running the code, provide the path to XceptionFinetuned model. This is the link to best model[best model](https://www.kaggle.com/ravieamani/bestmodel).
+* Before running the code, provide the path to XceptionFinetuned model. This is the link to [best model](https://www.kaggle.com/ravieamani/bestmodel).
 * Download this model and in Main function provide the name of the downloaded file 'Xception_finetuned.h5'.
 * Upon running the code, the code asks user for test directory path and batch size.
 * After providing these, the model gets evaluated on test data and performance metric such as accuracy, confusion matrix and classification report is printed.
