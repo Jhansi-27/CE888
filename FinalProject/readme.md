@@ -26,7 +26,7 @@
 * The CNN model has 3 convolutional layers followed by a max-pooling layers.
 * A dropout layer is added after 3rd maxpool operation to avoid overfitting.
 
-![BaseModel:Simple CNN](https://github.com/Jhansi-27/Forest_Fires_CNN/blob/main/Baseline_new.png?raw=true). 
+![BaseModel:Simple CNN](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/New_CNN.png). 
 
 * Finetuned  Xception Model:
 * The architecture of the model is given below:
