@@ -26,7 +26,7 @@
 * The CNN model has 3 convolutional layers followed by a max-pooling layers.
 * A dropout layer is added after 3rd maxpool operation to avoid overfitting.
 
-![BaseModel:Simple CNN](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/New_CNN.png). 
+![BaseModel:Simple CNN](https://github.com/Jhansi-27/Forest_Fires_CNN/blob/main/Baseline_new.png?raw=true). 
 
 * Finetuned  Xception Model:
 * The architecture of the model is given below:
@@ -46,7 +46,7 @@
 This code is run and tested on Python 3.6 on Windows 10  machine with no issues.
 The code for simple CNN can be found here [CNN.ipynb](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/CNN.ipynb)
 The code for finetuned Xception model can be found here [Xception_finetuned.ipynb](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/xception-finetuned.ipynb)
-This is the main IPython Notebook, run it using Jupyter notebook in your local system or it can be run using [Google Collab](https://colab.research.google.com).
+
 
 ## Results
 * The following are the classification accuracy and Confusion Matrix of the simple CNN and transfer learning model(Xception finetuned):
