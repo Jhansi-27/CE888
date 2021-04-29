@@ -49,11 +49,11 @@ The code for finetuned Xception model can be found here [Xception_finetuned.ipyn
 
 ## Instructions to run the model and to evaluate the model on test data
 
-To run this model, use [Xception_finetunedd.py](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Xception_finetunedd.py).
+The model can be run this file, [Xception_finetunedd.py](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Xception_finetunedd.py).
 * In this file, just change the following directory paths to directory path in which your train and test data are located.
 * change paths for training data and test data
-        train_dir = '../input/firedata/Training/Training' # change to your training directory path 
-        test_dir = '../input/firedata/Test/Test' # change to your test directory path
+        ```train_dir = '../input/firedata/Training/Training' # change to your training directory path ```
+        ```test_dir = '../input/firedata/Test/Test' # change to your test directory path```
 * Then run Xception_finetunedd.py
 ```
 python Xception_finetunedd.py
