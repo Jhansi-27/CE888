@@ -61,13 +61,15 @@ This is the main IPython Notebook, run it using Jupyter notebook in your local s
 * Accuracy
 ![Accuracy](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/FIneTuned_Xception_Results/finetuned_model_results_2%20(1).png)
 * Confusion marix and Classification matrix
-* 
+
 ![Classification Report](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/FIneTuned_Xception_Results/classification_report.JPG)
 
 ## Comparing performance of simple CNN and Xception finetuned model:
-### Simple CNN                   and                                     Finetuned Xception
+### Loass and Acuuracy:  Simple CNN(Left)                  and                                     Finetuned Xception(Right)
 ![Loss and Accuracy](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/SimpleCNN%20Results/loss_accuracy_cnn.JPG)![](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/FIneTuned_Xception_Results/Dataframe_loss_acc.JPG)
 
-### Simple CNN                   and                                     Finetuned Xception
+### Confusion matrix: Simple CNN (Left)                  and                                     Finetuned Xception(Right)
 ![Confusion Matrix](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/SimpleCNN%20Results/confusion_simpleCNN.png)![](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/FIneTuned_Xception_Results/cfm.png)
+
+
 
