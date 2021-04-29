@@ -60,8 +60,8 @@ This is the main IPython Notebook, run it using Jupyter notebook in your local s
 
 ### Transfer Learning with Finetuned Xception model:
 * Accuracy
-![Accuracy](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/SimpleCNN%20Results/CNN_results.png)
-![Loss and Accuracy](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/FIneTuned_Xception_Results/base_model_results_2.png)
+![Accuracy](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/FIneTuned_Xception_Results/finetuned_model_results_2%20(1).png)
+![Loss and Accuracy](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/FIneTuned_Xception_Results/Dataframe_loss_acc.JPG)
 * Confusion marix and Classification matrix
 ![Confusion Matrix](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/FIneTuned_Xception_Results/cfm.png)
 ![Classification Report](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/FIneTuned_Xception_Results/classification_report.JPG)
