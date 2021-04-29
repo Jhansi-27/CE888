@@ -44,12 +44,16 @@
 
 ## Code
 This code is run and tested on Python 3.6 on Windows 10  machine with no issues.
-Download the [Forest_fires.ipynb](https://github.com/Jhansi-27/Forest_Fires_CNN/blob/main/ForestFires.ipynb) file.
+The code for simple CNN can be found here [CNN.ipynb](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/CNN.ipynb)
+The code for finetuned Xception model can be found here [Xception_finetuned.ipynb](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/xception-finetuned.ipynb)
 This is the main IPython Notebook, run it using Jupyter notebook in your local system or it can be run using [Google Collab](https://colab.research.google.com).
 
 ## Results
-* The following are the classification accuracy and Confusion Matrix of the baseline model:
+* The following are the classification accuracy and Confusion Matrix of the simple CNN and transfer learning model(Xception finetuned):
+
 ### Accuracy
-![Accuracy](https://github.com/Jhansi-27/Forest_Fires_CNN/blob/main/accuracy.PNG?raw=true)
+![Accuracy](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/SimpleCNN%20Results/CNN_results.png)
+![Loss and Accuracy](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/SimpleCNN%20Results/loss_accuracy_cnn.JPG)
 ### Confusion marix
-![Confusion matrix](https://github.com/Jhansi-27/Forest_Fires_CNN/blob/main/cm.PNG?raw=true)
+![Confusion Matrix](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/SimpleCNN%20Results/confusion_simpleCNN.png)
+![Classification Report](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/SimpleCNN%20Results/Capture.JPG
