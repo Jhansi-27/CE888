@@ -56,4 +56,4 @@ This is the main IPython Notebook, run it using Jupyter notebook in your local s
 ![Loss and Accuracy](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/SimpleCNN%20Results/loss_accuracy_cnn.JPG)
 ### Confusion marix
 ![Confusion Matrix](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/SimpleCNN%20Results/confusion_simpleCNN.png)
-![Classification Report](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/SimpleCNN%20Results/Capture.JPG
+![Classification Report](https://github.com/Jhansi-27/CE888/blob/main/FinalProject/Results/SimpleCNN%20Results/Capture.JPG)
