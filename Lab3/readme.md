@@ -1,6 +1,8 @@
 
 
-* A new ipython notebook called bank_classification.ipynb is created for this lab.[bank_classification.ipynb]()
+* A new ipython notebook called bank_classification.ipynb is created for this lab.
+* Following is the link for .ipynb notbook.
+* [bank_classification.ipynb](https://github.com/Jhansi-27/CE888/blob/main/Lab3/bank_classification.ipynb)
 	
 * This is the link for dataset:
 	* ``bank-additional-full.csv``
