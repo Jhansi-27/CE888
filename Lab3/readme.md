@@ -1,31 +1,10 @@
 
-# Lab 3 - Modelling
 
-* Create a new ipython notebook called bank_classification.ipynb
+* A new ipython notebook called bank_classification.ipynb is created for this lab.[bank_classification.ipynb]()
 	
-* Check the bank dataset
+* This is the link for dataset:
 	* ``bank-additional-full.csv``
 	* [https://archive.ics.uci.edu/ml/datasets/Bank+Marketing](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
-	
-* In the Ipython notebook you created
-
-- [ ] Load the data from `bank-additional-full.csv`
-- [ ] Data preprocessing:
-    * Use LabelEncoder to convert the label into numbers.
-    * Perform one-hot encoding on the categorical features using `df_dummies = pd.get_dummies(df)`
-    * Column "duration" must be deleted
-    * Check if there are any missing values in the dataset. If there are, drop the rows.
-    * Plot histogram of the label and calculate the imbalance in the dataset.
-- [ ] Let's model the data:
-    * Using the `train_test_split` function in scikit-learn, separate your dataset into a training and a test set, with a test size of 20% and random_state=50. Make sure the train/test split is stratified (and check that it is!). Stratified means that the percentages of classes in each fold remains constant.
-    * Report the results of 10-fold stratified cross-validation on the training set using a random forest classifier with 100 trees and depth=3. **Ensure you're using an appropriate metric** (Use `sorted(sklearn.metrics.SCORERS.keys())` to see what are the valid options).
-    * Compare the results of your classifier with that of a dummy classifier.
-    * Use `GridSearchCV` to find a better set of parameters for your random forest.
-    * Print the cross-validation metric (whichever you previously chose) that you obtain for the random forest for the best parameters found with GridSearchCV
-    * What are the top 3 features?
-    * Report the generalisation error (still using the same metric) on your test set.    
-- [ ] Make sure you save your changes in Github and do the Unit lab's quiz on Moodle!
-
 
 Attribute Information of the Bank Marketing dataset:
 
